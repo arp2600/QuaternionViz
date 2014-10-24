@@ -34,7 +34,7 @@ public class Weight : MonoBehaviour
 
 	public void UpdateSize ()
 	{
-		float i = WeightsManager.size_scale;
+		float i = WeightsManager.size_scale * _w + WeightsManager.min_size;
 		transform.localScale = new Vector3(i,i,i);
 	}
 }
