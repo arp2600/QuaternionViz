@@ -6,7 +6,7 @@ public class Weight : MonoBehaviour
 {
 	float _i,_j,_k,_w;
 
-	public static void CreateWith (GameObject prefab, float[] f)
+	public static void CreateWeight (GameObject prefab, float[] f)
 	{
 		// Create the object and attach a weight component
 		GameObject go = Instantiate(prefab) as GameObject;

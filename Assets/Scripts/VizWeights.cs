@@ -34,7 +34,7 @@ public class VizWeights : MonoBehaviour
 				for (int j=0; j<4; j++)
 						floats[j] = float.Parse(components[j]);
 				// Create the weight object
-				Weight.CreateWith(weight_prefab, floats);
+				Weight.CreateWeight(weight_prefab, floats);
 			}
 			catch (System.FormatException)
 			{
