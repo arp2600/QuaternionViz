@@ -18,3 +18,7 @@ WeightsManager:
 Weights:
 	This script should never be used directly. The VizWeights script attaches weights to the 
 	specified prefabs when creating them. Weights are them controlled through the weight manager script.
+
+The VizWeights script and Weights manager script should be attached to the same object.
+The VizWeights script begins reading weights from line seven, allowing the first six lines to be used as a header.
+The first three quaternion components control the position, and the final component controls the scale.
